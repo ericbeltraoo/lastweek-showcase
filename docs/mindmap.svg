@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 720" width="1160" height="720" role="img" aria-label="Mind Map do ecossistema LastWeek">
+  <style>
+    text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}
+    .t{fill:#171717}.g{fill:#525252}.m{fill:#0E9B9E}
+    .box{fill:#ffffff;stroke:#E5E7EB;stroke-width:1.5}
+    .link{fill:none;stroke:#B8E6E7;stroke-width:2.5;stroke-linecap:round}
+  </style>
+
+  <rect x="0" y="0" width="1160" height="720" fill="#FBFDFD"/>
+  <rect x="1" y="1" width="1158" height="718" fill="none" stroke="#EDF1F1" stroke-width="2"/>
+
+  <!-- Título -->
+  <text x="48" y="44" class="m" font-size="13" font-weight="700" letter-spacing="3">MIND MAP</text>
+  <text x="48" y="70" class="t" font-size="22" font-weight="800">Mapeamento do Ecossistema</text>
+
+  <!-- Conectores -->
+  <path class="link" d="M470,360 C 430,360 408,145 368,145"/>
+  <path class="link" d="M470,360 L 368,360"/>
+  <path class="link" d="M470,360 C 430,360 408,575 368,575"/>
+  <path class="link" d="M690,360 C 730,360 752,145 792,145"/>
+  <path class="link" d="M690,360 L 792,360"/>
+  <path class="link" d="M690,360 C 730,360 752,575 792,575"/>
+
+  <!-- Nó central -->
+  <rect x="470" y="312" width="220" height="96" rx="18" fill="#24C2C5"/>
+  <text x="580" y="356" text-anchor="middle" fill="#ffffff" font-size="30" font-weight="800">LastWeek</text>
+  <text x="580" y="382" text-anchor="middle" fill="#EAFBFB" font-size="12" font-weight="600" letter-spacing="1">NÚCLEO DO SISTEMA</text>
+
+  <!-- ===== ESQUERDA ===== -->
+  <!-- A -->
+  <rect x="48" y="70" width="320" height="150" rx="16" class="box"/>
+  <circle cx="70" cy="102" r="5" fill="#24C2C5"/>
+  <text x="86" y="107" class="t" font-size="16" font-weight="700">Usuários &amp; Autenticação</text>
+  <g class="g" font-size="13">
+    <circle cx="72" cy="132" r="2.5" fill="#CBD5D5"/><text x="84" y="136">Cadastro e login por código (e-mail)</text>
+    <circle cx="72" cy="156" r="2.5" fill="#CBD5D5"/><text x="84" y="160">Sessão via JWT (cookie HttpOnly)</text>
+    <circle cx="72" cy="180" r="2.5" fill="#CBD5D5"/><text x="84" y="184">Papéis e permissões de acesso</text>
+    <circle cx="72" cy="204" r="2.5" fill="#CBD5D5"/><text x="84" y="208">Perfil e preferências do usuário</text>
+  </g>
+
+  <!-- B -->
+  <rect x="48" y="285" width="320" height="150" rx="16" class="box"/>
+  <circle cx="70" cy="317" r="5" fill="#24C2C5"/>
+  <text x="86" y="322" class="t" font-size="16" font-weight="700">Núcleo de Gestão</text>
+  <g class="g" font-size="13">
+    <circle cx="72" cy="347" r="2.5" fill="#CBD5D5"/><text x="84" y="351">Fluxos de trabalho em etapas</text>
+    <circle cx="72" cy="371" r="2.5" fill="#CBD5D5"/><text x="84" y="375">Ciclo de rascunho → publicado</text>
+    <circle cx="72" cy="395" r="2.5" fill="#CBD5D5"/><text x="84" y="399">Upload e organização de mídia</text>
+    <circle cx="72" cy="419" r="2.5" fill="#CBD5D5"/><text x="84" y="423">Regras de negócio e configurações</text>
+  </g>
+
+  <!-- C -->
+  <rect x="48" y="500" width="320" height="150" rx="16" class="box"/>
+  <circle cx="70" cy="532" r="5" fill="#24C2C5"/>
+  <text x="86" y="537" class="t" font-size="16" font-weight="700">Descoberta &amp; Consulta</text>
+  <g class="g" font-size="13">
+    <circle cx="72" cy="562" r="2.5" fill="#CBD5D5"/><text x="84" y="566">Busca e filtros dinâmicos</text>
+    <circle cx="72" cy="586" r="2.5" fill="#CBD5D5"/><text x="84" y="590">Listagens e paginação</text>
+    <circle cx="72" cy="610" r="2.5" fill="#CBD5D5"/><text x="84" y="614">Página de detalhe do item</text>
+    <circle cx="72" cy="634" r="2.5" fill="#CBD5D5"/><text x="84" y="638">Itens salvos / favoritos</text>
+  </g>
+
+  <!-- ===== DIREITA ===== -->
+  <!-- D -->
+  <rect x="792" y="70" width="320" height="150" rx="16" class="box"/>
+  <circle cx="814" cy="102" r="5" fill="#24C2C5"/>
+  <text x="830" y="107" class="t" font-size="16" font-weight="700">Painel Administrativo</text>
+  <g class="g" font-size="13">
+    <circle cx="816" cy="140" r="2.5" fill="#CBD5D5"/><text x="828" y="144">Visão geral e métricas</text>
+    <circle cx="816" cy="166" r="2.5" fill="#CBD5D5"/><text x="828" y="170">Gestão de usuários</text>
+    <circle cx="816" cy="192" r="2.5" fill="#CBD5D5"/><text x="828" y="196">Acesso estritamente restrito</text>
+  </g>
+
+  <!-- E -->
+  <rect x="792" y="285" width="320" height="150" rx="16" class="box"/>
+  <circle cx="814" cy="317" r="5" fill="#24C2C5"/>
+  <text x="830" y="322" class="t" font-size="16" font-weight="700">Camada de API (REST)</text>
+  <g class="g" font-size="13">
+    <circle cx="816" cy="355" r="2.5" fill="#CBD5D5"/><text x="828" y="359">Contratos de dados via DTO</text>
+    <circle cx="816" cy="381" r="2.5" fill="#CBD5D5"/><text x="828" y="385">Status HTTP semânticos</text>
+    <circle cx="816" cy="407" r="2.5" fill="#CBD5D5"/><text x="828" y="411">Serviços desacoplados por camada</text>
+  </g>
+
+  <!-- F -->
+  <rect x="792" y="500" width="320" height="150" rx="16" class="box"/>
+  <circle cx="814" cy="532" r="5" fill="#24C2C5"/>
+  <text x="830" y="537" class="t" font-size="16" font-weight="700">Segurança &amp; Infraestrutura</text>
+  <g class="g" font-size="13">
+    <circle cx="816" cy="562" r="2.5" fill="#CBD5D5"/><text x="828" y="566">Spring Security · JWT (alg. fixado)</text>
+    <circle cx="816" cy="586" r="2.5" fill="#CBD5D5"/><text x="828" y="590">CORS · HTTPS / TLS</text>
+    <circle cx="816" cy="610" r="2.5" fill="#CBD5D5"/><text x="828" y="614">Nginx · VPS · systemd</text>
+    <circle cx="816" cy="634" r="2.5" fill="#CBD5D5"/><text x="828" y="638">Deploy contínuo (diário)</text>
+  </g>
+
+  <text x="1112" y="700" text-anchor="end" class="g" font-size="11">LastWeek · Arquitetura de produto — visão de ecossistema</text>
+</svg>

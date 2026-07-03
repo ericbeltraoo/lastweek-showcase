@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Site Map da arquitetura de navegação do LastWeek">
+  <style>
+    text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}
+    .t{fill:#171717}.g{fill:#525252}.m{fill:#0E9B9E}
+    .cat{fill:#EAF9F9;stroke:#B8E6E7;stroke-width:1.5}
+    .leaf{fill:#ffffff;stroke:#E5E7EB;stroke-width:1.5}
+    .link{fill:none;stroke:#CBD5D5;stroke-width:2}
+    .catlabel{fill:#0E9B9E;font-weight:700;font-size:14}
+    .leaflabel{fill:#374151;font-size:12.5}
+  </style>
+
+  <rect x="0" y="0" width="1200" height="800" fill="#FBFDFD"/>
+  <rect x="1" y="1" width="1198" height="798" fill="none" stroke="#EDF1F1" stroke-width="2"/>
+
+  <text x="48" y="44" class="m" font-size="13" font-weight="700" letter-spacing="3">SITE MAP</text>
+  <text x="48" y="70" class="t" font-size="22" font-weight="800">Arquitetura de Navegação</text>
+
+  <!-- Raiz -->
+  <rect x="490" y="92" width="220" height="60" rx="16" fill="#24C2C5"/>
+  <text x="600" y="122" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="800">LastWeek</text>
+  <text x="600" y="140" text-anchor="middle" fill="#EAFBFB" font-size="11" font-weight="600" letter-spacing="1">HOME / LANDING</text>
+
+  <!-- Barramento -->
+  <path class="link" d="M600,152 L600,178"/>
+  <path class="link" d="M152,178 L1048,178"/>
+  <path class="link" d="M152,178 L152,206"/>
+  <path class="link" d="M376,178 L376,206"/>
+  <path class="link" d="M600,178 L600,206"/>
+  <path class="link" d="M824,178 L824,206"/>
+  <path class="link" d="M1048,178 L1048,206"/>
+
+  <!-- ===== Categoria 1: Autenticação (center 152) ===== -->
+  <rect x="52" y="206" width="200" height="52" rx="12" class="cat"/>
+  <text x="152" y="238" text-anchor="middle" class="catlabel">Autenticação</text>
+  <path class="link" d="M152,258 L152,286"/>
+  <rect x="47" y="286" width="210" height="40" rx="10" class="leaf"/><text x="152" y="311" text-anchor="middle" class="leaflabel">Entrar / Cadastrar</text>
+  <path class="link" d="M152,326 L152,338"/>
+  <rect x="47" y="338" width="210" height="40" rx="10" class="leaf"/><text x="152" y="363" text-anchor="middle" class="leaflabel">Verificação por código (e-mail)</text>
+  <path class="link" d="M152,378 L152,390"/>
+  <rect x="47" y="390" width="210" height="40" rx="10" class="leaf"/><text x="152" y="415" text-anchor="middle" class="leaflabel">Recuperação de senha</text>
+  <path class="link" d="M152,430 L152,442"/>
+  <rect x="47" y="442" width="210" height="40" rx="10" class="leaf"/><text x="152" y="467" text-anchor="middle" class="leaflabel">Onboarding de perfil</text>
+
+  <!-- ===== Categoria 2: Explorar (center 376) ===== -->
+  <rect x="276" y="206" width="200" height="52" rx="12" class="cat"/>
+  <text x="376" y="238" text-anchor="middle" class="catlabel">Explorar</text>
+  <path class="link" d="M376,258 L376,286"/>
+  <rect x="271" y="286" width="210" height="40" rx="10" class="leaf"/><text x="376" y="311" text-anchor="middle" class="leaflabel">Busca + Filtros</text>
+  <path class="link" d="M376,326 L376,338"/>
+  <rect x="271" y="338" width="210" height="40" rx="10" class="leaf"/><text x="376" y="363" text-anchor="middle" class="leaflabel">Resultados / Listagem</text>
+  <path class="link" d="M376,378 L376,390"/>
+  <rect x="271" y="390" width="210" height="40" rx="10" class="leaf"/><text x="376" y="415" text-anchor="middle" class="leaflabel">Detalhe do item</text>
+
+  <!-- ===== Categoria 3: Área do Usuário (center 600) ===== -->
+  <rect x="500" y="206" width="200" height="52" rx="12" class="cat"/>
+  <text x="600" y="238" text-anchor="middle" class="catlabel">Área do Usuário</text>
+  <path class="link" d="M600,258 L600,286"/>
+  <rect x="495" y="286" width="210" height="40" rx="10" class="leaf"/><text x="600" y="311" text-anchor="middle" class="leaflabel">Perfil</text>
+  <path class="link" d="M600,326 L600,338"/>
+  <rect x="495" y="338" width="210" height="40" rx="10" class="leaf"/><text x="600" y="363" text-anchor="middle" class="leaflabel">Configurações / Preferências</text>
+  <path class="link" d="M600,378 L600,390"/>
+  <rect x="495" y="390" width="210" height="40" rx="10" class="leaf"/><text x="600" y="415" text-anchor="middle" class="leaflabel">Itens salvos</text>
+  <path class="link" d="M600,430 L600,442"/>
+  <rect x="495" y="442" width="210" height="66" rx="10" fill="#ffffff" stroke="#24C2C5" stroke-width="1.6"/>
+  <text x="600" y="466" text-anchor="middle" class="t" font-size="12.5" font-weight="700">Painel de Gestão</text>
+  <text x="600" y="488" text-anchor="middle" class="g" font-size="11.5">Etapa 1 · 2 · 3 → Publicar</text>
+
+  <!-- ===== Categoria 4: Painel Admin (center 824) ===== -->
+  <rect x="724" y="206" width="200" height="52" rx="12" class="cat"/>
+  <text x="824" y="238" text-anchor="middle" class="catlabel">Painel Admin</text>
+  <path class="link" d="M824,258 L824,286"/>
+  <rect x="719" y="286" width="210" height="40" rx="10" class="leaf"/><text x="824" y="311" text-anchor="middle" class="leaflabel">Visão geral / Métricas</text>
+  <path class="link" d="M824,326 L824,338"/>
+  <rect x="719" y="338" width="210" height="40" rx="10" class="leaf"/><text x="824" y="363" text-anchor="middle" class="leaflabel">Gestão de usuários</text>
+  <path class="link" d="M824,378 L824,390"/>
+  <rect x="719" y="390" width="210" height="40" rx="10" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1.5"/><text x="824" y="415" text-anchor="middle" fill="#9A3412" font-size="12" font-weight="600">Acesso restrito</text>
+
+  <!-- ===== Categoria 5: Institucional (center 1048) ===== -->
+  <rect x="948" y="206" width="200" height="52" rx="12" class="cat"/>
+  <text x="1048" y="238" text-anchor="middle" class="catlabel">Institucional</text>
+  <path class="link" d="M1048,258 L1048,286"/>
+  <rect x="943" y="286" width="210" height="40" rx="10" class="leaf"/><text x="1048" y="311" text-anchor="middle" class="leaflabel">Central de Ajuda</text>
+  <path class="link" d="M1048,326 L1048,338"/>
+  <rect x="943" y="338" width="210" height="40" rx="10" class="leaf"/><text x="1048" y="363" text-anchor="middle" class="leaflabel">Contato</text>
+  <path class="link" d="M1048,378 L1048,390"/>
+  <rect x="943" y="390" width="210" height="40" rx="10" class="leaf"/><text x="1048" y="415" text-anchor="middle" class="leaflabel">Termos · Privacidade</text>
+
+  <!-- Legenda -->
+  <g transform="translate(48,720)">
+    <rect x="0" y="0" width="16" height="16" rx="4" fill="#24C2C5"/><text x="24" y="13" class="g" font-size="12">Entrada</text>
+    <rect x="110" y="0" width="16" height="16" rx="4" class="cat"/><text x="134" y="13" class="g" font-size="12">Seção</text>
+    <rect x="210" y="0" width="16" height="16" rx="4" class="leaf"/><text x="234" y="13" class="g" font-size="12">Tela</text>
+    <rect x="300" y="0" width="16" height="16" rx="4" fill="#FFF7ED" stroke="#FED7AA"/><text x="324" y="13" class="g" font-size="12">Acesso restrito</text>
+  </g>
+  <text x="1152" y="733" text-anchor="end" class="g" font-size="11">LastWeek · Arquitetura de navegação — visão de telas</text>
+</svg>
