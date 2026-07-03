@@ -109,10 +109,9 @@ Estruturação das entidades, atores, funcionalidades e regras de negócio do si
 holística antes da modelagem técnica.
 
 <p align="center">
-  <img src="docs/mindmap.png" alt="Mind Map — Mapeamento do Ecossistema do LastWeek" width="80%" />
+  <img src="docs/mindmap.svg" alt="Mind Map — Mapeamento do Ecossistema do LastWeek" width="80%" />
 </p>
 
-<p align="center"><em>Substitua por: <code>docs/mindmap.png</code></em></p>
 
 ### 🧭 Site Map — Arquitetura de Navegação
 
@@ -120,10 +119,9 @@ Definição da hierarquia de telas, fluxos de navegação e pontos de decisão d
 experiência coesa e a modelagem das rotas da API.
 
 <p align="center">
-  <img src="docs/sitemap.png" alt="Site Map — Arquitetura de Navegação do LastWeek" width="80%" />
+  <img src="docs/sitemap.svg" alt="Site Map — Arquitetura de Navegação do LastWeek" width="80%" />
 </p>
 
-<p align="center"><em>Substitua por: <code>docs/sitemap.png</code></em></p>
 
 > 💡 Essa etapa demonstra que o desenvolvimento foi **precedido por design intencional**, reduzindo retrabalho e
 > alinhando a arquitetura de software à **usabilidade** desde a concepção.
